@@ -1,0 +1,526 @@
+{
+	"info": {
+		"_postman_id": "fcd6778a-6e19-4c59-997b-adf7cdeff694",
+		"name": "Lattice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35035389"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/api/hospitals/psychiatrists",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hospital_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/api/hospitals/psychiatrists",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"hospitals",
+						"psychiatrists"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:5000/api/hospitals/psychiatrists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "hospital_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:5000/api/hospitals/psychiatrists",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"hospitals",
+								"psychiatrists"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "361"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"169-U6lpyKHbuHDWWe9CMPFFIL1DRaQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 May 2024 20:31:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"hospital_name\": \"Apollo Hospitals\",\n    \"total_psychiatrists_count\": 5,\n    \"total_patients_count\": 14,\n    \"psychiatrists\": [\n        {\n            \"id\": 1,\n            \"name\": \"Aarav Arora\",\n            \"patients_count\": 2\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Aditi Sharma\",\n            \"patients_count\": 4\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Ananya Bansal\",\n            \"patients_count\": 3\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Arjun Malhotra\",\n            \"patients_count\": 2\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Asha Dravid\",\n            \"patients_count\": 3\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:5000/api/hospitals/psychiatrists",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hospital_id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/api/hospitals/psychiatrists",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"hospitals",
+						"psychiatrists"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:5000/api/hospitals/psychiatrists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "hospital_id",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:5000/api/hospitals/psychiatrists",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"hospitals",
+								"psychiatrists"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "413"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19d-o9WQv7aqwqvgSHJTwLRkYtleG54\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 May 2024 20:33:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"hospital_name\": \"Indira Gandhi Institute of Medical Sciences (IGIMS)\",\n    \"total_psychiatrists_count\": 5,\n    \"total_patients_count\": 12,\n    \"psychiatrists\": [\n        {\n            \"id\": 11,\n            \"name\": \"Harshit Deshmukh\",\n            \"patients_count\": 2\n        },\n        {\n            \"id\": 12,\n            \"name\": \"Saurav Chatterjee\",\n            \"patients_count\": 2\n        },\n        {\n            \"id\": 13,\n            \"name\": \"Dipti Malhotra\",\n            \"patients_count\": 2\n        },\n        {\n            \"id\": 14,\n            \"name\": \"Lakshmi Sharma \",\n            \"patients_count\": 3\n        },\n        {\n            \"id\": 15,\n            \"name\": \"Manoj Verma\",\n            \"patients_count\": 3\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:5000/api/patients/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Vikram Singh",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "45, Green Park, Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikram.singh@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "+91-9876543210",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "uhsaidhAauiha@1",
+							"type": "text"
+						},
+						{
+							"key": "psychiatrist_id",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "download (4).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/api/patients/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"patients",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:5000/api/patients/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Vikram Singh",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "45, Green Park, Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "vikram.singh@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "+91-9876543210",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "uhsaidhAauiha@1",
+									"type": "text"
+								},
+								{
+									"key": "psychiatrist_id",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "download (4).jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:5000/api/patients/register",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"patients",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3c-G9e8OswfaHLbyG2uD1evsb1NpFM\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 May 2024 20:40:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Patient registered successfully\",\n    \"patientId\": 65\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:5000/api/patients/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Shalini Singh",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "45, Green Park, Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "shalini.singh@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "+91-9866543210",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "uhsaghghAauiha@1",
+							"type": "text"
+						},
+						{
+							"key": "psychiatrist_id",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "download (6).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/api/patients/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"patients",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:5000/api/patients/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Shalini Singh",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "45, Green Park, Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shalini.singh@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "+91-9866543210",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "uhsaghghAauiha@1",
+									"type": "text"
+								},
+								{
+									"key": "psychiatrist_id",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "download (6).jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:5000/api/patients/register",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"patients",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3c-oIdbaZWw/ywgvb58P5sLZ4GTn10\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 May 2024 20:44:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Patient registered successfully\",\n    \"patientId\": 66\n}"
+				}
+			]
+		}
+	]
+}
